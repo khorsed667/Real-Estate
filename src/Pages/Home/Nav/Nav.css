@@ -1,0 +1,11 @@
+.nav-container{
+    background-color: var(--black);
+    color: white;
+}
+.nav-area{
+    justify-content: space-between;
+    color: var(--secondary);
+}
+.nav-items{
+    gap: 2rem;
+}

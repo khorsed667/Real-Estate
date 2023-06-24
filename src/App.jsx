@@ -1,7 +1,10 @@
+import Home from "./Pages/Home/Home/Home";
 
 function App() {
   return (
-    <span>subscribe Zainkeepscode</span>
+    <div>
+      <Home></Home>
+    </div>
   );
 }
 
