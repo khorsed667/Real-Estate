@@ -7,10 +7,10 @@ const Nav = () => {
             <div className="flexCenter paddings innerWidth nav-area">
                 <img src="./logo.png" alt="logo" width={100} />
                 <div className="flexCenter nav-items">
-                    <a href="">Residence</a>
-                    <a href="">Contact Us</a>
-                    <a href="">Our value</a>
-                    <a href="">Get started</a>
+                    <a className="secondaryText" href="">Residence</a>
+                    <a className="secondaryText" href="">Contact Us</a>
+                    <a className="secondaryText" href="">Our value</a>
+                    <a className="secondaryText" href="">Get started</a>
                     <button className='button'>
                         <a href="">Contact</a>
                     </button>

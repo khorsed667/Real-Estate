@@ -1,0 +1,16 @@
+.home-container{
+    position: relative;
+    overflow-x: clip;
+}
+.home-container>:nth-child(1){
+    background: var(--black);
+    position: relative;
+}
+.effect{
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    background: rgba(255, 255, 255, 0.522);
+    filter: blur(100px);
+    border-radius: 100px;
+}

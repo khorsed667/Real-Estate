@@ -1,0 +1,75 @@
+.banner-wrapper {
+  color: white;
+  padding-bottom: 2rem;
+  position: relative;
+}
+
+.banner-container {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.banner-left {
+  gap: 3rem;
+}
+
+.rounde-circle {
+  height: 4rem;
+  width: 4rem;
+  background: var(--blue-gradient);
+  border-radius: 100%;
+  position: absolute;
+  right: 8%;
+  top: -10%;
+  z-index: -1;
+}
+
+.banner-tittle {
+  position: relative;
+  z-index: 1;
+}
+
+.banner-tittle > h1 {
+  font-weight: 600;
+  font-size: 3.8rem;
+  line-height: 4rem;
+}
+
+.img-container {
+  height: 35rem;
+  width: 30rem;
+  overflow: hidden;
+  border-radius: 15rem 15rem 0 0;
+  border: 8px solid rgba(255, 255, 255, 0.12);
+}
+
+.img-container > img {
+  height: 100%;
+  width: 100%;
+}
+
+.banner-search {
+  background-color: white;
+  border-radius: 5px;
+  border: 3px solid rgba(120, 120, 120, 0.374);
+  padding: 0.5rem, 1rem;
+  justify-content: space-between;
+}
+
+.banner-search > input {
+  border: none;
+  outline: none;
+}
+
+.stats {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.stat>:nth-child(1) {
+  font-size: 2rem;
+}
+
+.stat>:nth-child(1)>:last-child {
+  color: orange;
+}
