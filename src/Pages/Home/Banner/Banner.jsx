@@ -20,15 +20,15 @@ const Banner = () => {
                 type:'ease-in'
               }}
               >
-                Connect Us <br /> to discover <br /> Property
+                Discover Endless <br /> Possibilities with  <br /> Homyz
               </motion.h1>
             </div>
             <div className="flexColStart banner-des">
-              <span className="secondaryText">
+              <span className="secondaryOrangeText">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
                 magni.
               </span>
-              <span className="secondaryText">
+              <span className="secondaryOrangeText">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               </span>
             </div>
@@ -46,21 +46,21 @@ const Banner = () => {
                   <CountUp className="count" start={8800} end={9000} duration={3}></CountUp>
                   <span>+</span>
                 </span>
-                <span className="secondaryText">Premium Product</span>
+                <span className="secondaryOrangeText">Premium Product</span>
               </div>
               <div className="flexColCenter stat">
                 <span>
                   <CountUp className="count" start={130} end={230} duration={3}></CountUp>
                   <span>+</span>
                 </span>
-                <span className="secondaryText">Happy Clients</span>
+                <span className="secondaryOrangeText">Happy Clients</span>
               </div>
               <div className="flexColCenter stat">
                 <span>
                   <CountUp className="count" end={13}></CountUp>
                   <span>+</span>
                 </span>
-                <span className="secondaryText">Awards</span>
+                <span className="secondaryOrangeText">Awards</span>
               </div>
             </div>
           </div>

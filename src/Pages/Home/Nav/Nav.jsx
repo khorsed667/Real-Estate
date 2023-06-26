@@ -20,16 +20,16 @@ const Nav = () => {
         onOutsideClick={()=>setOpenMenu(false)}
         >
           <div className="flexCenter nav-items" style={getMenuStyle(openMenu)}>
-            <a className="secondaryText" href="">
+            <a className="secondaryOrangeText" href="">
               Residence
             </a>
-            <a className="secondaryText" href="">
+            <a className="secondaryOrangeText" href="">
               Contact Us
             </a>
-            <a className="secondaryText" href="">
+            <a className="secondaryOrangeText" href="">
               Our value
             </a>
-            <a className="secondaryText" href="">
+            <a className="secondaryOrangeText" href="">
               Get started
             </a>
             <button className="nav-button">
