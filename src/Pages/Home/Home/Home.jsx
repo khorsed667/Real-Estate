@@ -7,6 +7,7 @@ import Residence from "../Residence/Residence";
 import Value from "../Value/Value";
 import Contact from "../Contact/Contact";
 import Started from "../GetStarted/Started";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <Value></Value>
       <Contact></Contact>
       <Started></Started>
+      <Footer></Footer>
     </div>
   );
 };
