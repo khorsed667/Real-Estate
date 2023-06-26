@@ -6,6 +6,7 @@ import Companies from "../Companies/Companies";
 import Residence from "../Residence/Residence";
 import Value from "../Value/Value";
 import Contact from "../Contact/Contact";
+import Started from "../GetStarted/Started";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Residence></Residence>
       <Value></Value>
       <Contact></Contact>
+      <Started></Started>
     </div>
   );
 };
