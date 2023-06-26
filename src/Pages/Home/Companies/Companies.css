@@ -1,0 +1,8 @@
+.company-area{
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.company-area>img{
+   width: 9rem; 
+}
