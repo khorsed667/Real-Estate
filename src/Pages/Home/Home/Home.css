@@ -3,7 +3,7 @@
     overflow-x: clip;
 }
 .home-container>:nth-child(1){
-    background: var(--black);
+    background: var(--blue);
     position: relative;
 }
 .effect{

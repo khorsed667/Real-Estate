@@ -43,6 +43,7 @@
     gap: 1rem;
     top: -4rem;
     right: 0;
+    padding: 5px;
 }
 
 .swiper-buttons button{
@@ -61,4 +62,14 @@
 
 .swiper-buttons> :nth-child(2){
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 640px) {
+    .swiper-header{
+        align-items: center;
+    }
+    .swiper-buttons{
+        position: initial;
+        text-align: center;
+    }
 }

@@ -2,10 +2,11 @@
   color: white;
   padding-bottom: 2rem;
   position: relative;
+  z-index: 1;
 }
 
 .banner-container {
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-end;
 }
 
@@ -16,7 +17,7 @@
 .rounde-circle {
   height: 4rem;
   width: 4rem;
-  background: var(--blue-gradient);
+  background: var(--orange-gradient);
   border-radius: 100%;
   position: absolute;
   right: 8%;
@@ -72,4 +73,29 @@
 
 .stat>:nth-child(1)>:last-child {
   color: orange;
+}
+
+
+@media (max-width: 640px) {
+  .banner-container{
+    margin-top: 2rem;
+  }
+  .banner-tittle>h1{
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .img-container{
+    width: 95%;
+    height: 25rem;
+  }
+  .stats{
+    justify-content: center;
+    gap: 1rem;
+  }
+   .banner-right{
+    width: 100%;
+   }
+   .stat>:nth-child(1) {
+    font-size: 1.2rem;
+  }
 }

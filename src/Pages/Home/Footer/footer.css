@@ -9,3 +9,11 @@
     margin-top: 1.5rem;
     font-weight: 500;
 }
+@media (max-width: 768px) {
+    .footer-container{
+        align-items: center;
+    }
+    .footer-container>div{
+        align-items: center;
+    }
+}

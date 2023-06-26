@@ -2,6 +2,8 @@ import React from "react";
 import "./Banner.css";
 import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup";
+import {motion} from 'framer-motion';
+
 const Banner = () => {
   return (
     <div>
@@ -10,9 +12,16 @@ const Banner = () => {
           <div className="flexColStart banner-left">
             <div className="banner-tittle">
               <div className="rounde-circle"></div>
-              <h1>
+              <motion.h1
+              initial={{y: '2rem', opacity: 0}}
+              animate={{y: 0, opacity: 1}}
+              transition={{
+                duration:2,
+                type:'ease-in'
+              }}
+              >
                 Connect Us <br /> to discover <br /> Property
-              </h1>
+              </motion.h1>
             </div>
             <div className="flexColStart banner-des">
               <span className="secondaryText">
@@ -25,23 +34,23 @@ const Banner = () => {
             </div>
             <div className="flexCenter banner-search">
               <HiLocationMarker
-                color="var(--blue)"
+                color="var(--orange)"
                 size={25}
               ></HiLocationMarker>
               <input type="text" />
-              <button className="button">Search</button>
+              <button className="nav-button">Search</button>
             </div>
             <div className="flexCenter stats">
               <div className="flexColCenter stat">
                 <span>
-                  <CountUp className="count" start={8800} end={9000} duration={4}></CountUp>
+                  <CountUp className="count" start={8800} end={9000} duration={3}></CountUp>
                   <span>+</span>
                 </span>
                 <span className="secondaryText">Premium Product</span>
               </div>
               <div className="flexColCenter stat">
                 <span>
-                  <CountUp className="count" start={130} end={230} duration={4}></CountUp>
+                  <CountUp className="count" start={130} end={230} duration={3}></CountUp>
                   <span>+</span>
                 </span>
                 <span className="secondaryText">Happy Clients</span>
@@ -56,9 +65,16 @@ const Banner = () => {
             </div>
           </div>
           <div className="banner-right">
-            <div className="img-container">
-              <img src="./hero-image.png" alt="" />
-            </div>
+            <motion.div
+            initial={{x:'7rem', opacity: 0}}
+            animate={{x:0, opacity: 1}}
+            transition={{
+              duration:2,
+                type:'ease-in'
+            }}
+            className="img-container">
+              <img src="./hero-image.jpg" alt="" />
+            </motion.div>
           </div>
         </div>
       </div>
